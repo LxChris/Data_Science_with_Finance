@@ -11,6 +11,14 @@ Contributor:
 ---
 ## 课程PROJECT整理大行动
 ---
+**Reorganizer: Lixi Zhou**
+
+**Note:**
+
+Because pyplot is not supported in GitHub yet. Please use the link below to review the Jupyter Notebook.
+
+https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/master/Part1_Basic_Analysis.
+
 **TO-DO LIST**
 - [x] Basic_Analysis Notebook
 - [ ] 整理data
