@@ -17,7 +17,7 @@ Contributor:
 
 Because pyplot is not supported in GitHub yet. Please use the link below to review the Jupyter Notebook.
 
-https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/master/Part1_Basic_Analysis.
+https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/master/Part1_Basic_Analysis.ipynb
 
 **TO-DO LIST**
 - [x] Basic_Analysis Notebook
