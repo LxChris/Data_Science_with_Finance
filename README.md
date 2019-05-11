@@ -22,6 +22,7 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
 
 **Part 2**
 https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/master/Part2_SVR_OLS_With_Trading.ipynb
+
 ---
 
 **TO-DO LIST**
