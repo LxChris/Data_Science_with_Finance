@@ -29,7 +29,7 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
 
 **Ideal structure of project**
 - [x] Part1_Basic_Analysis
-- [ ] Part2_SVR_LinearRegression
+- [x] Part2_SVR_LinearRegression
 - [ ] Part3_GARCH_FAMAFRECH
 - [ ] Part4_RandomForest
 - [ ] Part5_PairTrading
@@ -50,11 +50,14 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
     - [ ] 1. GARCH  **Postponed**.
     - [ ] 2. Kalman Filter  **Postponed**.
 - 05/09/2019: Make **OLS and SVR part as a higher priority**, start`Part2_SVR_Linear Regression`, by applying new indexing methods, the performance of code was improved a lot. Time cost of a function reduced from 40s to 10s. Refactor time window function, make it more powerful. To-Do:
-  - [x] Finish SVR and Linear Regression Part。
-  - [x] Finish comments。
-  - [ ] Build trading algorithm with model built。
-  - [x] `makePrediction()` Refactor the input of model.
-  - [x] `makePrediction()` Determined that the function would return a model, so it can be used for futher consideration.
-  - [ ] `makePrediction()` Detailed the help for the function.
-  - [x] Optimize the model 
+    - [x] Finish SVR and Linear Regression Part。
+    - [x] Finish comments。
+    - [ ] Build trading algorithm with model built。
+    - [x] `makePrediction()` Refactor the input of model.
+    - [x] `makePrediction()` Determined that the function would return a model, so it can be used for futher consideration.
+    - [x] `makePrediction()` Detailed the help for the function.
+    - [x] Optimize the model 
 - 05/10/2019: Finish the refactor of makePrediction function. Help text still need to be done. Features selecting, t-test, and RMSE calculating are done.
+- 05/23/2019: Improved efficiency of for loop. Build trading strategy. Finished the trading algorithm part and plot nice graph. Next Period requirement:
+    - [ ] Sharpe ratio analysis
+    - [ ] Sortino ratio analysis
