@@ -61,3 +61,4 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
 - 05/23/2019: Improved efficiency of for loop. Build trading strategy. Finished the trading algorithm part and plot nice graph. Next Period requirement:
     - [ ] Sharpe ratio analysis
     - [ ] Sortino ratio analysis
+- 05/28/2019: Fixed a critical bug that may result in the model failed. **As a result of it: the model did not play very well.** Create a function to calcualte the hit rate for the model prediction. For now, this hit rate only reach **52%**. It is a very bad model.
