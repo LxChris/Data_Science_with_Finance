@@ -32,7 +32,7 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
 - [x] Part2_SVR_LinearRegression
 - [ ] Part3_GARCH_FAMAFRECH
 - [ ] Part4_RandomForest
-- [ ] Part5_PairTrading
+- [x] Part5_PairTrading
 - [ ] Part6_PredictModel_TradingAlgorithm
 - [ ] Write a report
 ---
@@ -42,7 +42,7 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
   - Requirements:
     - [x] 1. Underscore is not allowed in a variable name, and it is only allowed in dataFrame.
     - [x] 2. Detailed the comment, arguments and return.
-    - [x] 3. Plot share price data and then normalized it. Calculate the change rate for each data. Check whether breaking news would have a huge impact o share price. 
+    - [x] 3. Plot share price data and then normalized it. Calcuklate the change rate for each data. Check whether breaking news would have a huge impact o share price. 
     - [x] 4. Explorer `Januaray Effect`. Use the histogram to summarize the change rate.
 - 05/03/2019: Add `fig` folder to store figure used in jupyter notebook. Comments for each function have been added. Basic_Analysis ETA: 05/04/2019.
 - 05/04/2019: `Basic_Analysis` Done。Next targets：GARCH model and the Fama-French model.
@@ -63,5 +63,7 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
     - [ ] Sortino ratio analysis
 - 05/28/2019: Fixed a critical bug that may result in the model failed. **As a result of it: the model did not play very well.** Create a function to calculate the hit rate for the model prediction. For now, this hit rate only reaches **52%**. It is a very bad model.
 - 07/06/2019: Update `Pair_Trading`, select the most matched stock and built the trading algorithm. Beta version is done. Known issues to be fixed:
-  - [ ] The model is based on historical data not use input data as a stream to feed the model. Need to refactor as `OLS_SVR_model` use historical data to train a model and take action based on next day's open price.
-  - [ ] Comments clear.
+  - [x] The model is based on historical data not use input data as a stream to feed the model. Need to refactor as `OLS_SVR_model` use historical data to train a model and take action based on next day's open price.
+  - [x] Comments clear.
+- 07/08/2019: Update `Pair_Trading`, fixed known issues. Correct the predicting model. Use real cash to plot the return graph.
+
