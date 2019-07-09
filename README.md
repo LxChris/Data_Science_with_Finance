@@ -25,6 +25,10 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
 
 https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/master/Part2_SVR_OLS_With_Trading.ipynb
 
+**Part 5**
+
+https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/master/Part5_Pair_Trading.ipynb
+
 ---
 
 **Ideal structure of project**
