@@ -1,6 +1,6 @@
 # Data Science with Finace
 ---
-Contributor:
+Original Contributor:
 - Jhansi Nair
 - Kanika Nama
 - Lixi Zhou
@@ -70,4 +70,7 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
   - [x] The model is based on historical data not use input data as a stream to feed the model. Need to refactor as `OLS_SVR_model` use historical data to train a model and take action based on next day's open price.
   - [x] Comments clear.
 - 07/08/2019: Update `Pair_Trading`, fixed known issues. Correct the predicting model. Use real cash to plot the return graph.
+- 07/13/2019: Finish `Pair_Trading` part, update streaming data model, optimize `action` model for making actions to avoid unncessary signal. The performance of the model is not very well. Only **20%** profit for three years. If a user only holde Amazon share without selling, he can earn **200%** profit. Next step:
+  - [ ] Change timewindow to optimize the model.
+  - [ ] Change the threshold to optimize the model.
 
