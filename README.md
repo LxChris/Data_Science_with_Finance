@@ -63,8 +63,8 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
     - [x] Optimize the model 
 - 05/10/2019: Finish the refactor of makePrediction function. Help text still needs to be done. Features selecting, t-test and RMSE calculating are done.
 - 05/23/2019: Improved efficiency of for loop. Build a trading strategy. Finished the trading algorithm part and plot a nice graph. Next Period requirement:
-    - [ ] Sharpe ratio analysis
-    - [ ] Sortino ratio analysis
+    - [x] Sharpe ratio analysis
+    - [x] Sortino ratio analysis
 - 05/28/2019: Fixed a critical bug that may result in the model failed. **As a result of it: the model did not play very well.** Create a function to calculate the hit rate for the model prediction. For now, this hit rate only reaches **52%**. It is a very bad model.
 - 07/06/2019: Update `Pair_Trading`, select the most matched stock and built the trading algorithm. Beta version is done. Known issues to be fixed:
   - [x] The model is based on historical data not use input data as a stream to feed the model. Need to refactor as `OLS_SVR_model` use historical data to train a model and take action based on next day's open price.
@@ -73,4 +73,6 @@ https://nbviewer.jupyter.org/github/LxChris/Data_Science_with_Finance/blob/maste
 - 07/13/2019: Finish `Pair_Trading` part, update streaming data model, optimize `action` model for making actions to avoid unncessary signal. The performance of the model is not very well. Only **20%** profit for three years. If a user only holde Amazon share without selling, he can earn **200%** profit. Next step:
   - [ ] Change timewindow to optimize the model.
   - [ ] Change the threshold to optimize the model.
+- 07/14/2019: Add risk analysis for `Part5`.
+  - [ ] Add risk analysis for `Part2`.
 
